@@ -35,7 +35,7 @@ async function installTool(version, url) {
   const file = await tc.downloadTool(url);
 
   await exec.exec(`mkdir changelog`)
-  await exec.exec(`tar -C changelog -xzvf ${file} --strip-components 0 --wildcards samo`)
+  await exec.exec(`tar -C changelog -xzvf ${file} --strip-components 0 --wildcards changelog`)
 
   cachedPath = await tc.cacheDir('changelog', 'changelog', version);
   core.addPath(cachedPath)

@@ -1,5 +1,5 @@
 name: 'Install changelog generator for the Github release'
-description: 'Github action that generaters a changelog und create a release in Github.'
+description: 'Github action that generaters a changelog and create a release in Github.'
 author: 'andrejpetras'
 branding:
   icon: edit
@@ -10,7 +10,7 @@ inputs:
     required: false
     default: '1.6.0'
   download_url:
-    description: 'Download samo URL template.'
+    description: 'Download changelog URL template.'
     required: false
     default: 'https://github.com/lorislab/changelog/releases/download/${version}/changelog_Linux_x86_64.tar.gz'
 outputs: {}
