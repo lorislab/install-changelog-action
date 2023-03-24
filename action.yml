@@ -1,4 +1,4 @@
-name: 'Changelog generator for the Github release'
+name: 'Install changelog generator for the Github release'
 description: 'Github action that generaters a changelog und create a release in Github.'
 author: 'andrejpetras'
 branding:
