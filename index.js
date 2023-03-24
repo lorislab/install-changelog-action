@@ -16,10 +16,10 @@ async function run() {
     }
     
     downloadURL = fillTemplate(downloadURL);
-    core.info(`samo donwload URL: ${downloadURL}`)
+    core.info(`changelog donwload URL: ${downloadURL}`)
     
     await installTool(version, downloadURL);    
-    await exec.exec('samo version');
+    await exec.exec('changelog version');
   } catch (error) {
     core.setFailed(error.message);
   }
