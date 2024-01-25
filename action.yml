@@ -15,5 +15,5 @@ inputs:
     default: 'https://github.com/lorislab/changelog/releases/download/${version}/changelog_Linux_x86_64.tar.gz'
 outputs: {}
 runs:
-  using: 'node16'
+  using: 'node20'
   main: 'dist/index.js'
